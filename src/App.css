@@ -1,38 +1,102 @@
-.App {
+.app{
+  height: 100vh;
+}
+.title{
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.inputs{
+  margin-top: 20px;
+  margin-left: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box{
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
   align-items: center;
+}
+
+.box>label{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+.box>input{
+  margin-top: 20px;
+  text-align: center;
+  width:400px;
+  height: 30px;
+}
+
+.sliders{
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.box2{display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  align-items: center;
+  
+}
+
+.box2>span{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+.box2>input{
+  margin-top: 10px;
+  text-align: center;
+  width:400px;
+  height: 30px;
+  margin-bottom: 0px;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between; /* Distribute space between labels */
+  margin-top: 5px; /* Add space above the labels container */
+  width: 400px;
+}
+
+.tenure{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+}
+.text{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+.tenurecontainer{
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+  
+}
+.tenure1{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(226,226,226);
+}
+
+.selected{
+  background-color: #009ad6;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
