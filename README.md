@@ -1,4 +1,4 @@
-##EMI calculator app.
+# EMI calculator app.
 
 Skills: React.js
 
